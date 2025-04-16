@@ -53,9 +53,9 @@ namespace OOPForTCA
 
             // Products
             modelBuilder.Entity<Product>().HasData(
-                new Product { Id = 1, Name = "Laptop", Price = 999.99m, Stock =10 },
-                new Product { Id = 2, Name = "Smartphone", Price = 599.49m, Stock=5 },
-                new Product { Id = 3, Name = "Headphones", Price = 149.99m, Stock=20 }
+                new Product { Id = 1, Name = "Laptop", Price = 999.99, Stock =10 },
+                new Product { Id = 2, Name = "Smartphone", Price = 599.49, Stock=5 },
+                new Product { Id = 3, Name = "Headphones", Price = 149.99, Stock=20 }
             );
 
             // Orders
